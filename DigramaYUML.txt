@@ -1,0 +1,8 @@
+Diagrama YUML:
+
+[<<Shape>>]^-.-[FillRetangulo] >
+[<<Shape>>]^-.-[Retangulo] >
+[ShapeFactory]<>->[<<Shape>>]
+[Client]->[ShapeFactory]
+[Client]->[FillRetangulo]
+[Client]->[Retangulo]
